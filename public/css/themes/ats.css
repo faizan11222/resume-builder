@@ -1,0 +1,76 @@
+.cv-container {
+    width: 210mm;
+    height: 297mm;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: scale(.6) translate(-50%, 100px);
+    transform-origin: top left;
+}
+
+.cv-container.print {
+    position: static;
+    transform: scale(1) translate(0, 0);
+    left: 0;
+    top: 0;
+    background-color: transparent;
+}
+
+.cv-wrapper {
+    padding: 60px 40px 0 40px;
+}
+
+.cv-container h1,.cv-container h2,.cv-container h3,.cv-container h4,.cv-container h5 {
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cv-container p, .cv-container span, .cv-container a, .cv-container li, .cv-container td, .cv-container th {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cv-container td, .cv-container th {
+    line-height: 1.7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    text-align: center;
+}
+.title h1 {
+    font-size: 40px;
+}
+
+.cv-container .profile h2,
+.cv-container .education h2,
+.cv-container .experience h2,
+.cv-container .skill h2 {
+    border-bottom: 2px solid #000;
+    margin: 32px 0 14px;
+}
+
+@media(max-width: 1200px){
+    .cv-container {
+        transform: scale(.5) translate(-50%, 100px);
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .cv-container {
+        transform: scale(.7) translate(-50%, 100px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .cv-container {
+        transform: scale(.4) translate(-50%, 100px);
+    }
+}

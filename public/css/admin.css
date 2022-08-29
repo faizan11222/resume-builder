@@ -1,0 +1,30 @@
+.dashboard {
+    margin-top: 70px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 30px 0;
+}
+
+.card-icon {
+    background-color: #BDA249;
+    display: inline;
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.card-body .title {
+    font-weight: 600;
+    font-size: 70px !important;
+}

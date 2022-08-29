@@ -1,0 +1,30 @@
+.background-right {
+    background-image: url(../images/login-bg.jpg);
+    background-size: cover;
+}
+.glide__slide img, 
+.glide__track, 
+.glide__slides, 
+.glide__slide {
+    height: 100%;
+}
+.glide__slides {
+    padding: 50px 0;
+}
+.glide__slide img {
+    width: 100%;
+    object-fit: scale-down;
+    object-position: top;
+}
+.glide__slide {
+    transition: .1s;
+}
+.glide__slide:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.glide-home {
+    height: 100%;
+    width: 200%;
+    transform: translateX(-300px);
+}
